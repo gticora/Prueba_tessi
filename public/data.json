@@ -1,0 +1,8 @@
+{
+    "empleados": [
+         { "name":"Jorge" , "email":"jorge@gmail.com", "position":1, "salary":1200, "phone":3135648, "address":"cara 23 4-50", "skills":"front-end"  },
+         { "name":"Ana" , "email":"ana@gmail.com", "position":2, "salary":1200, "phone":3135648, "address":"cara 23 4-50", "skills":"front-end"  },
+         { "name":"Pedro" , "email":"pedro@gmail.com","position":3, "salary":1200, "phone":3135648, "address":"cara 23 4-50", "skills":"back-end"  },
+         { "name":"Fernanda" , "email":"fernanda@gmail.com","position":4, "salary":1200, "phone":3135648, "address":"cara 23 4-50", "skills":"back-end"  }
+      ]
+}
