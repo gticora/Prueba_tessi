@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'App\Http\Controllers\EmpleadoControlller@index')
+    ->name('empleados.index');
+
+Route::get('/{empelado}', 'App\Http\Controllers\EmpleadoControlller@show')
+    ->where('user', '[0-9]+')
+    ->name('empleados.show');
+
